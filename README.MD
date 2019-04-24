@@ -7,10 +7,15 @@ The purpose of this project is to get cost usage data from AWS costexplorer api 
 How to run:
 ------------
 
+Configure AWS credentials, SES_SEND, SES_REGION, SES_FROM:
+    
+    aws configure 
+    
+    
+
 Run following commands:
 
-    $ pip install -r requirements.txt
-    $ python cost_report_script.py --months <month>
+    $ python cost)report_script.py --months <month>
     
     Example 
-    $ python cost_report_script.py --months 6    	
+    $ python cost)report_script.py --months 6    	
